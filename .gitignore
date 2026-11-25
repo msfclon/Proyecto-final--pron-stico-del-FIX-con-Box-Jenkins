@@ -1,0 +1,26 @@
+# Entorno virtual y archivos de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Resultados que generan los scripts (se recrean al correrlos)
+resultados/
+
+# Archivos temporales de Excel y del sistema
+~$*.xlsx
+.DS_Store
+Thumbs.db
+
+# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
